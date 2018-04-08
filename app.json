@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/feeding/feeding",
+    "pages/me/me",
+    "pages/expenses/expenses"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTitleText": "水族小管家",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/feeding/feeding",
+        "text": "饲养",
+        "iconPath": "images/feeding-1.png",
+        "selectedIconPath": "images/feeding.png"
+      },
+      {
+        "pagePath": "pages/expenses/expenses",
+        "text": "花销",
+        "iconPath": "images/expenses-1.png",
+        "selectedIconPath": "images/expenses.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me-1.png",
+        "selectedIconPath": "images/me.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}
